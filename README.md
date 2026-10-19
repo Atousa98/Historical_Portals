@@ -1,4 +1,4 @@
-# Historical Portals: Mixed Reality Pipeline 🌀🕰️
+# Historical Portals: Mixed Reality Pipeline 
 
 An ongoing Mixed Reality (MR) spatial computing prototype that bridges contemporary physical spaces with archival memory. Based on the historic context of **Linz Hauptplatz (Austria)**, this project uses Meta Quest 3 Passthrough and custom shaders to overlay historical 360° environments into the real world.
 
@@ -6,25 +6,23 @@ An ongoing Mixed Reality (MR) spatial computing prototype that bridges contempor
 
 ---
 
-## 📸 Project Visuals
+## Project Visuals
 
 ### Final Prototype Concept (Linz Hauptplatz)
 The final experience places an ornate, physical-virtual Baroque portal frame within the modern busy square of Linz Hauptplatz. Gazing through the aperture reveals an 8K historic equirectangular view of the square and the Holy Trinity Column (Dreifaltigkeitssäule), seamlessly blending the past directly into the today's passing tram and pedestrian traffic.
 
-![Linz Hauptplatz Concept Sketch](https://raw.githubusercontent.com/Atousa98/Historical_Portals/main/Assets/ConceptSketch.jpg)
+![Linz Hauptplatz Concept Sketch](https://github.com/Atousa98/Historical_Portals/releases/download/V1/Ornate.Frame.Over.a.Sketchy.City.Street.png)
 
 ### 360° Historical Photosphere
 The historical panorama is projected on inverted sphere geometry, calibrated with Custom Y-axis alignment to perfectly overlay onto the real-world sightlines of the square.
 
-![Linz Hauptplatz 360 Archive](https://raw.githubusercontent.com/Atousa98/Historical_Portals/main/Assets/360Archive.jpg)
+![Linz Hauptplatz 360 Archive](https://github.com/Atousa98/Historical_Portals/releases/download/V2/photo_2026-10-19_10-07-40.jpg)
 
 ---
 
-## 🛠️ System & Architecture Pipeline
+## System & Architecture Pipeline
 
 Below is the technical data-flow and hardware mapping of the interactive portal prototype.
-
-![Technical System Architecture](https://raw.githubusercontent.com/Atousa98/Historical_Portals/main/Assets/PipelineSketch.jpg)
 
 ### Core Pipeline Components:
 1. **Camera & Pose Data**: Captures real-time stereo passthrough and IMU/pose tracking on the Meta Quest 3 headset.
@@ -34,7 +32,7 @@ Below is the technical data-flow and hardware mapping of the interactive portal 
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 * **Game Engine**: Unity 6 (Universal Render Pipeline - URP)
 * **SDKs**: Meta XR Core SDK (v60+), OpenXR
@@ -45,14 +43,14 @@ Below is the technical data-flow and hardware mapping of the interactive portal 
 
 ---
 
-## 🚀 Get Started
+## Get Started
 
 1. Clone this repository into your local directory.
 2. Open the project in Unity (Version 6 or newer).
 3. Ensure the **Meta XR SDK** is installed and configured in `Project Settings > XR Plug-in Management`.
 4. Run the Scene: Play the scene through **Oculus Link** with Quest 3 connected, or build the APK and deploy to headset.
 
-> 📝 **Build Note:** For the passthrough to work seamlessly on PC / Oculus Link play mode, ensure you allow Passthrough realtime data feeds on Meta Link Developer settings first.
+> **Build Note:** For the passthrough to work seamlessly on PC / Oculus Link play mode, ensure you allow Passthrough realtime data feeds on Meta Link Developer settings first.
 
 ---
 
